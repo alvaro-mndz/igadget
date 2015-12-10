@@ -1,0 +1,16 @@
+.mw-footer {
+  text-align: center;
+  @include background(linear-gradient(to top, #852201, #6a1b00));
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #D1B4AE;
+  font-size: 12px;
+  padding: 10px;
+
+  .sprites-moovweb {
+    margin: 0 auto;
+  }
+
+  #Powered {  
+    font-style: italic;}
+}
+

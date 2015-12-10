@@ -1,0 +1,54 @@
+// Every page should have a class on the body
+// Scope that in each file at the start
+.mw-home {
+
+}
+
+#AjaxLoading {
+	display: none;
+}
+
+.Content {
+	h2 {
+		text-align: center;
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	}
+
+	a {
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		color: black;
+		font-size: 12px;
+	}
+
+	em {
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		color: black;
+		font-size: 12px;
+	}
+
+	[data-ur-set="carousel"] {
+	  overflow: hidden;
+	  position: relative;
+	}
+	[data-ur-carousel-component="item"] {
+	  float: left;
+	}
+
+}
+
+.ProductActionAdd {
+	a { 
+		color: white; font-size: 15px; 
+	}
+	text-align: center;
+	border-top: 1px solid black;
+	@include background(linear-gradient(to top, #852201, #6a1b00));	
+	border-radius: 8px;
+	padding: 15px 0px;
+	width: 140px;
+}
+
+.Product {
+	max-width: 155px;
+	padding: 10px 10px;
+}

@@ -1,0 +1,46 @@
+.ProductMain {
+
+	margin: 10px;
+	background-color: #F2F4F7;
+	border: 1px solid #CDCDCD;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+
+.ProductDetailsGrid {
+
+	padding: 10px;
+
+	.DetailRow {
+		padding: 3px 0;
+	}
+
+}
+
+.ProductAddToCartRight {
+
+	padding: 10px;
+}
+
+#ProductDescription, #ProductReviews {
+	padding: 10px;
+	margin: 0 10px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+.FloatRight {
+	float: right;
+}
+
+.ProductActionAddProd {
+	font-size: 15px;
+	color: white;
+	text-align: center;
+	border-top: 1px solid black;
+	@include background(linear-gradient(to top, #852201, #6a1b00));	
+	border-radius: 8px;
+	padding: 15px 0px;
+	width: 100%;
+}

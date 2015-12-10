@@ -1,0 +1,76 @@
+.mw_category{
+	
+}
+
+.Left {
+	padding-top: 5px;
+} 
+
+.toggler-div {
+	padding: 0 10px 5px 10px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	color: #3C231A;
+
+	.toggler-header {
+		border-radius: 8px;
+		background-color: #7E2802;
+		color: white;
+		padding: 10px;
+		margin: 10 10px;
+
+		&[data-ur-state="enabled"] { 
+			border-bottom-right-radius: 0;
+			border-bottom-left-radius: 0;
+			div {
+				background: url("/_moovweb_local_assets_/images/sprites.png") no-repeat 0px -720px;
+			  	width: 13px;
+				height: 13px;
+			} 
+		}
+
+		#toggler-sprite {
+			float: right;
+		}
+	}
+
+	.BlockContent {
+		background-color: #F1F5E1;
+		border-bottom-left-radius: 8px;
+		border-bottom-right-radius: 8px;
+		border: 2px solid #7E2802;
+		border-top: none;
+
+		a { color: #3C1824; }
+		div { 
+			padding: 10px 5px 10px 10px;
+			border-top: 2px solid #7E2802;
+			div { float: right; border: none; }
+		}
+	}
+}
+
+.toggler-box {
+	margin: 0 10px;
+    padding: 5px 10px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    background-color: #7E2802;
+    border-radius: 8px;
+}
+
+#CategoryContent {
+	.ProductMain {
+		display: flex;
+		padding: 10px;
+
+		.ProductText { margin-left: 10px; }
+	}
+}
+
+
+
+
+
